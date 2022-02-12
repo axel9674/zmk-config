@@ -11,9 +11,6 @@
 
 
 #define TIMEOUT 300
-#define DEFAULT 0
-#define LOWER   1
-#define RAISE   2
 
 &encoder_1 {
     status = "okay";
@@ -64,36 +61,36 @@
                 &none        &kp KP_NLCK  &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS    
                 &none        &kp KP_N7    &kp KP_N8       &kp KP_N9         &kp KP_PLUS   
                 &kp C_MUTE   &kp KP_N4    &kp KP_N5       &kp KP_N6         &none
-                &to RAISE    &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_ENTER
-                &to LOWER    &kp KP_N0    &none           &kp KP_DOT        &none
+                &to 2        &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_ENTER
+                &to 1        &kp KP_N0    &none           &kp KP_DOT        &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
         }; 
         
-        fn_layer_1 {
-            label = "layer 1";
+        fn_layer_frecce {
+            label = "layer funzione";
             bindings = <
                 &none       &kp F21    &kp F22       &kp F23         &kp F24  
                 &none       &none      &none         &none           &none     
                 &none       &none      &none         &none           &none
                 &none       &none      &UP           &none           &none    
-                &to DEFAULT &LEFT      &DOWN         &RIGHT          &none
-                &to RAISE   &none      &none         &none           &none           
+                &to 0       &LEFT      &DOWN         &RIGHT          &none
+                &to 2       &none      &none         &none           &none           
             >;  
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 
         };
         
-        fn_layer_2 {
-            label = "layer 2";
+        fn_layer_rgb {
+            label = "layer rgb";
             bindings = <
                 &none       &none            &none                               &reset           &bootloader
                 &none       &none            &none                               &none            &none
                 &none       &none            &none                               &none            &none
                 &none       &none            &none                               &none            &none
-                &to LOWER   &none            &none                               &none            &none
-                &to DEFAULT &none            &none                               &none            &none
+                &to 0       &none            &none                               &none            &none
+                &to 1       &none            &none                               &none            &none
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 
