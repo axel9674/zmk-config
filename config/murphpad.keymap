@@ -46,8 +46,8 @@
         nav_layer {
             label = "nav";
             bindings = <
-                &none        &kp F21     &kp F22     &kp F23         &kp F24
-                &none        &none       &none       &none           &none
+                &none        &trans      &trans      &trans          &trans
+                &none        &kp LESS_THAN       &kp GREATER_THAN       &none           &none
                 &none        &none       &none       &none           &none
                 &none        &none       &kp UP      &none           &none
                 &to DEFAULT  &kp LEFT    &kp DOWN    &kp RIGHT       &none
@@ -60,14 +60,14 @@
         rgb_layer {
             label = "rgb";
             bindings = <
-                &none           &none   &none   &reset  &bootloader
+                &none           &trans   &trans   &trans  &trans
                 &none           &none   &none   &none   &none
-                &none           &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(255,255,255)   &rgb_ug RGB_BRD   &rgb_ug RGB_BRI
+                &none           &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(255,255,255)   &none   &none
                 &none           &none   &none   &none   &none
                 &to NAV         &none   &none   &none   &none
                 &to DEFAULT     &none   &none   &none   &none
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_rgb_ug RGB_BRI RGB_BRD>;
                 
         };
         
