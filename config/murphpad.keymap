@@ -85,19 +85,19 @@
                 
         };
         
-        fn_layer_2 {
-            label = "layer 2";
-            bindings = <
-                &trans      &trans           &trans                              &reset           &bootloader  
-                &trans      &trans           &trans                              &trans           &trans
-                &trans      &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(255,255,255)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-                &trans      &trans           &trans                              &trans           &trans    
-                &to LAYER_1 &trans           &trans                              &trans           &trans
-                &to LAYER_0 &trans           &trans                              &trans           &trans           
-            >;  
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
-                
-        };
+//        fn_layer_2 {
+//            label = "layer 2";
+//            bindings = <
+//                &trans      &trans           &trans                              &reset           &bootloader  
+//                &trans      &trans           &trans                              &trans           &trans
+//                &trans      &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(255,255,255)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
+//                &trans      &trans           &trans                              &trans           &trans    
+//                &to LAYER_1 &trans           &trans                              &trans           &trans
+//                &to LAYER_0 &trans           &trans                              &trans           &trans           
+//            >;  
+//            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+//                
+//        };
         
     };
 };
