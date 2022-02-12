@@ -64,8 +64,8 @@
                 &none           &none   &none   &none   &none
                 &none           &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(255,255,255)   &none   &none
                 &none           &none   &none   &none   &none
-                &to NAV         &none   &none   &none   &none
-                &to DEFAULT     &none   &none   &none   &reset
+                &to NAV         &none   &none   &none   &reset
+                &to DEFAULT     &none   &none   &none   &none
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 
