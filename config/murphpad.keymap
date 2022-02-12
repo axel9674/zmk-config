@@ -68,8 +68,8 @@
 
         }; 
         
-        fn_layer_frecce {
-            label = "layer funzione";
+        nav_layer {
+            label = "nav layer";
             bindings = <
                 &none       &kp F21    &kp F22       &kp F23         &kp F24  
                 &none       &none      &none         &none           &none     
@@ -82,8 +82,8 @@
                 
         };
         
-        fn_layer_rgb {
-            label = "layer rgb";
+        rgb_layer {
+            label = "rgb layer";
             bindings = <
                 &none       &none            &none                               &reset           &bootloader
                 &none       &none            &none                               &none            &none
