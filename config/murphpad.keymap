@@ -40,7 +40,7 @@
 
         };
         
-        fn_layer {
+        nav_layer {
             label = "nav layer";
             bindings = <
                 &none   &kp F21     &kp F22     &kp F23         &kp F24
@@ -54,6 +54,19 @@
                 
         };
 
+        rgb_layer {
+            label = "rgb layer";
+            bindings = <
+                &none   &none   &none   &reset  &bootloader
+                &none   &none   &none   &none   &none
+                &none   &none   &none   &none   &none
+                &none   &none   &none   &none   &none
+                &to 0   &none   &none   &none   &none
+                &to 1   &none   &none   &none   &none
+            >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+                
+        };
         
     };
 };
