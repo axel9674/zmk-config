@@ -50,7 +50,7 @@
     
     sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_1 &encoder_2>;
+        sensors = <&encoder_1>;
     };
 
 
@@ -67,7 +67,7 @@
                 &to LAYER_2      &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_ENTER
                 &to LAYER_1      &kp KP_N0    &trans          &kp KP_DOT        &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
         }; 
         
@@ -81,7 +81,7 @@
                 &to LAYER_0 &LEFT      &DOWN         &RIGHT          &trans
                 &to LAYER_2 &trans     &trans        &trans          &trans           
             >;  
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 
         };
         
@@ -95,7 +95,7 @@
                 &to LAYER_1 &trans           &trans                              &trans           &trans
                 &to LAYER_0 &trans           &trans                              &trans           &trans           
             >;  
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 
         };
         
