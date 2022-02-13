@@ -59,9 +59,9 @@
         resboot: reset_bootloader {
             compatible = "zmk,behavior-mod-morph";
             label = "BOOTLOADER";
-            #binding-cells = <2>;
+            #binding-cells = <0>;
             bindings = <&reset>, <&bootloader>;
-            mods = <(MOD_LGUI)>;
+            mods = <(MOD_LCTL)>;
         };
     };
 
