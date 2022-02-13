@@ -54,6 +54,16 @@
         sensors = <&encoder_1>;
     };
 
+    behaviors {
+        resboot: reset_bootloader {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BOOTLOADER";
+            #binding-cells = <0>;
+            bindings = <&reset>, <&bootloader>;
+            mods = <(MOD_LGUI)>;
+        };
+    };
+
     keymap0: keymap {
         compatible = "zmk,keymap";
 	
@@ -119,7 +129,7 @@
                 &none           &rgb_ug RGB_TOG     &none               &none   &none
                 &none           &rgb_ug RGB_HUD     &rgb_ug RGB_HUI     &none   &none
                 &trans          &rgb_ug RGB_SAD     &rgb_ug RGB_SAI     &none   &none
-                &to NAV         &rgb_ug RGB_BRD     &rgb_ug RGB_BRI     &none   &reset
+                &to NAV         &rgb_ug RGB_BRD     &rgb_ug RGB_BRI     &none   &resboot
                 &to DEFAULT     &none               &none               &none   &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
