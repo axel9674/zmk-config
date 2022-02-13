@@ -3,7 +3,7 @@ name: py
 on:
   push:
     paths:
-       - 'layout-python'
+       - 'python'
 
 jobs:
   build:
@@ -18,4 +18,4 @@ jobs:
           python-version: 3.8 #install the python needed
       - name: execute py script # run the run.py to get the latest data
         run: |
-          python draw.py
+          python python/draw.py
