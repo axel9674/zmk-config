@@ -16,12 +16,12 @@
         fill: #fdd;
     }
 </style>
-<rect rx="6" ry="6" x="29.5" y="171.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="194.0">mute</text>
-<rect rx="6" ry="6" x="29.5" y="220.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="243.0">rgb</text>
-<rect rx="6" ry="6" x="29.5" y="269.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="292.0">nav</text>
+<rect rx="6" ry="6" x="29.5" y="245.0" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="267.5">mute</text>
+<rect rx="6" ry="6" x="29.5" y="294.0" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="316.5">rgb</text>
+<rect rx="6" ry="6" x="29.5" y="343.0" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="365.5">nav</text>
 <rect rx="6" ry="6" x="118.0" y="24.5" width="55" height="45" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="47.0">f17</text>
 <rect rx="6" ry="6" x="177.0" y="24.5" width="55" height="45" class="" />
@@ -67,12 +67,12 @@
 <rect rx="6" ry="6" x="236.0" y="294.0" width="55" height="45" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="263.5" y="316.5">.</text>
 <rect rx="6" ry="6" x="295.0" y="294.0" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="29.5" y="439.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="461.5">mute</text>
-<rect rx="6" ry="6" x="29.5" y="488.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="510.5">default</text>
-<rect rx="6" ry="6" x="29.5" y="537.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="559.5">rgb</text>
+<rect rx="6" ry="6" x="29.5" y="512.5" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="535.0">mute</text>
+<rect rx="6" ry="6" x="29.5" y="561.5" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="584.0">default</text>
+<rect rx="6" ry="6" x="29.5" y="610.5" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="633.0">rgb</text>
 <rect rx="6" ry="6" x="118.0" y="292.0" width="55" height="45" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="314.5">f17</text>
 <rect rx="6" ry="6" x="177.0" y="292.0" width="55" height="45" class="" />
@@ -108,12 +108,12 @@
 <rect rx="6" ry="6" x="177.0" y="561.5" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="236.0" y="561.5" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="295.0" y="561.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="29.5" y="706.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="729.0">mute</text>
-<rect rx="6" ry="6" x="29.5" y="755.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="778.0">nav</text>
-<rect rx="6" ry="6" x="29.5" y="804.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="827.0">default</text>
+<rect rx="6" ry="6" x="29.5" y="780.0" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="802.5">mute</text>
+<rect rx="6" ry="6" x="29.5" y="829.0" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="851.5">nav</text>
+<rect rx="6" ry="6" x="29.5" y="878.0" width="55" height="45" class="" />
+<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="900.5">default</text>
 <rect rx="6" ry="6" x="118.0" y="559.5" width="55" height="45" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="582.0">f17</text>
 <rect rx="6" ry="6" x="177.0" y="559.5" width="55" height="45" class="" />
