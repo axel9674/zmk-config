@@ -3,7 +3,7 @@ name: py
 on:
   push:
     paths:
-       - 'draw.py'
+       - 'layout-python'
 
 jobs:
   build:
