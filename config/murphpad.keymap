@@ -104,13 +104,13 @@
         };
 	
 //    rgb layer
-//    __________________________________________________________________________________________________
-//    ||               || F17                     || F18                      || F19 || F20         ||
-//    || VOLUME UP     || TOGGLE RGB              ||                          ||     ||             ||
-//    || VOLUME DOWN   || RGB HUE DECREASE        || RGB HUE INCREASE         ||     ||             ||
-//    || MUTE          || RGB SATURATION DECREASE || RGB SATURATION INCREASE  ||     ||             ||
-//    || NAV LAYER     || RGB BRIGHTNESS DECREASE || RGB BRIGHTNESS INCREASE  ||     || RESET BOARD ||
-//    || DEFAULT LAYER ||                         ||                          ||     ||             ||
+//    _______________________________________________________________________________________________
+//    ||               || F17                     || F18                     || F19 || F20         ||
+//    || VOLUME UP     || TOGGLE RGB              ||                         ||     ||             ||
+//    || VOLUME DOWN   || RGB HUE DECREASE        || RGB HUE INCREASE        ||     ||             ||
+//    || MUTE          || RGB SATURATION DECREASE || RGB SATURATION INCREASE ||     ||             ||
+//    || NAV LAYER     || RGB BRIGHTNESS DECREASE || RGB BRIGHTNESS INCREASE ||     || RESET BOARD ||
+//    || DEFAULT LAYER ||                         ||                         ||     ||             ||
 
         rgb_layer {
             label = "rgb";
