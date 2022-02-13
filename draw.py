@@ -145,15 +145,11 @@ def print_key(x, y, key, layout):
 
     width = KEY_W * layout.value[0] + 4 * (layout.value[0] - 1)
     height = KEY_H * layout.value[1] + 4 * (layout.value[1] - 1)
-    print(
-        f'<rect rx="{KEY_RX}" ry="{KEY_RY}" x="{x + INNER_PAD_W}" y="{y + INNER_PAD_H}" width="{width}" height="{height}" class="{key_class}" />'
-    )
+    file.write(f'<rect rx="{KEY_RX}" ry="{KEY_RY}" x="{x + INNER_PAD_W}" y="{y + INNER_PAD_H}" width="{width}" height="{height}" class="{key_class}" />')
     words = key.split()
     y += (KEYSPACE_H - (len(words) - 1) * LINE_SPACING) / 2
     for word in key.split():
-        print(
-            f'<text text-anchor="middle" dominant-baseline="middle" x="{x + KEYSPACE_W / 2}" y="{y}">{word}</text>'
-        )
+        file.write(f'<text text-anchor="middle" dominant-baseline="middle" x="{x + KEYSPACE_W / 2}" y="{y}">{word}</text>')
         y += LINE_SPACING
 
 
@@ -188,9 +184,9 @@ def print_board(x, y, keymap):
         y += LAYER_H
 
 
-print(
-    f'<svg width="{BOARD_W}" height="{BOARD_H}" viewBox="0 0 {BOARD_W} {BOARD_H}" xmlns="http://www.w3.org/2000/svg">'
-)
-print(f"<style>{STYLE}</style>")
+file = open("../keymap.svg", "w")
+file.write(f'<svg width="{BOARD_W}" height="{BOARD_H}" viewBox="0 0 {BOARD_W} {BOARD_H}" xmlns="http://www.w3.org/2000/svg">')
+file.write(f"<style>{STYLE}</style>")
 print_board(0, 0, KEYMAP)
-print("</svg>")
+file.write("</svg>")
+file.close()
