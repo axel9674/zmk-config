@@ -123,8 +123,8 @@
 <rect rx="6" ry="6" x="295.0" y="755.5" width="55" height="45" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="322.5" y="778.0">f20</text>
 <rect rx="6" ry="6" x="118.0" y="829.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="842.5">toggle</text>
-<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="860.5">rgb</text>
+<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="842.5">rgb</text>
+<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="860.5">tog</text>
 <rect rx="6" ry="6" x="177.0" y="829.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="236.0" y="829.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="295.0" y="829.0" width="55" height="45" class="" />
@@ -137,18 +137,18 @@
 <rect rx="6" ry="6" x="236.0" y="878.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="295.0" y="878.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="118.0" y="927.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="940.5">saturation</text>
+<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="940.5">sat</text>
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="958.5">down</text>
 <rect rx="6" ry="6" x="177.0" y="927.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="204.5" y="940.5">saturation</text>
+<text text-anchor="middle" dominant-baseline="middle" x="204.5" y="940.5">sat</text>
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="958.5">up</text>
 <rect rx="6" ry="6" x="236.0" y="927.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="295.0" y="927.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="118.0" y="976.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="989.5">brightness</text>
+<text text-anchor="middle" dominant-baseline="middle" x="145.5" y="989.5">bri</text>
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="1007.5">down</text>
 <rect rx="6" ry="6" x="177.0" y="976.0" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="204.5" y="989.5">brightness</text>
+<text text-anchor="middle" dominant-baseline="middle" x="204.5" y="989.5">bri</text>
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1007.5">up</text>
 <rect rx="6" ry="6" x="236.0" y="976.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="295.0" y="976.0" width="55" height="45" class="" />
