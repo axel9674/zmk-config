@@ -69,35 +69,35 @@
         default_layer {
             label = "default";
             bindings = <
-                &none        &kp F17      &kp F18         &kp F19           &kp F20
-                &none        &kp BACKSPACE  &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS
-                &none        &kp KP_N7    &kp KP_N8       &kp KP_N9         &kp KP_PLUS
-                &kp C_MUTE   &kp KP_N4    &kp KP_N5       &kp KP_N6         &none
-                &to RGB      &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_ENTER
-                &to NAV      &kp KP_N0    &none           &kp KP_DOT        &none
+                &none       &kp F17         &kp F18         &kp F19             &kp F20
+                &none       &kp BACKSPACE   &kp KP_DIVIDE   &kp KP_MULTIPLY     &kp KP_MINUS
+                &none       &kp KP_N7       &kp KP_N8       &kp KP_N9           &kp KP_PLUS
+                &kp C_MUTE  &kp KP_N4       &kp KP_N5       &kp KP_N6           &none
+                &to RGB     &kp KP_N1       &kp KP_N2       &kp KP_N3           &kp KP_ENTER
+                &to NAV     &kp KP_N0       &none           &kp KP_DOT          &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
         };
 	
 //    nav layer
-//    ___________________________________________________
-//    ||                 || F17 || F18 || F19 || F20   ||
-//    || VOLUME UP       || \   ||     ||     ||       ||
-//    || VOLUME DOWN     || <   || >   ||     ||       ||
-//    || MUTE            ||     || ⬆   ||     ||       ||
-//    || DEFAULT LAYER   || ⬅  || ⬇   || ⮕  ||       ||
-//    || RGB LAYER       ||     ||     ||     ||       ||
+//    _________________________________________________
+//    ||                 || F17 || F18 || F19 || F20 ||
+//    || VOLUME UP       || \   ||     ||     ||     ||
+//    || VOLUME DOWN     || <   || >   ||     ||     ||
+//    || MUTE            ||     || ⬆   ||     ||     ||
+//    || DEFAULT LAYER   || ⬅  || ⬇   || ⮕  ||     ||
+//    || RGB LAYER       ||     ||     ||     ||     ||
         
         nav_layer {
             label = "nav";
             bindings = <
-                &none        &trans      &trans      &trans          &trans
-                &none        &kp NON_US_BACKSLASH       &none       &none           &none
-                &none        &kp LESS_THAN       &kp GREATER_THAN       &none           &none
-                &trans        &none       &kp UP      &none           &none
-                &to DEFAULT  &kp LEFT    &kp DOWN    &kp RIGHT       &none
-                &to RGB      &none       &none       &none           &none
+                &none           &trans                  &trans              &trans          &trans
+                &none           &kp NON_US_BACKSLASH    &none               &none           &none
+                &none           &kp LESS_THAN           &kp GREATER_THAN    &none           &none
+                &trans          &none                   &kp UP              &none           &none
+                &to DEFAULT     &kp LEFT                &kp DOWN            &kp RIGHT       &none
+                &to RGB         &none                   &none               &none           &none
             >;  
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 
@@ -105,22 +105,22 @@
 	
 //    rgb layer
 //    __________________________________________________________________________________________________
-//    ||               || F17                      || F18                       || F19 || F20         ||
-//    || VOLUME UP     || TOGGLE RGB               ||                           ||     ||             ||
-//    || VOLUME DOWN   || RGB HUE DECREASE         || RGB HUE INCREASE          ||     ||             ||
-//    || MUTE          || RGB SATURATION DECREASE  || RGB SATURATION INCREASE   ||     ||             ||
-//    || NAV LAYER     || RGB BRIGHTNESS DECREASE  || RGB BRIGHTNESS INCREASE   ||     || RESET BOARD ||
-//    || DEFAULT LAYER ||                          ||                           ||     ||             ||
+//    ||               || F17                     || F18                      || F19 || F20         ||
+//    || VOLUME UP     || TOGGLE RGB              ||                          ||     ||             ||
+//    || VOLUME DOWN   || RGB HUE DECREASE        || RGB HUE INCREASE         ||     ||             ||
+//    || MUTE          || RGB SATURATION DECREASE || RGB SATURATION INCREASE  ||     ||             ||
+//    || NAV LAYER     || RGB BRIGHTNESS DECREASE || RGB BRIGHTNESS INCREASE  ||     || RESET BOARD ||
+//    || DEFAULT LAYER ||                         ||                          ||     ||             ||
 
         rgb_layer {
             label = "rgb";
             bindings = <
-                &none           &trans   	  &trans   	    &trans  &trans
-		&none           &rgb_ug RGB_TOG   &none   	    &none   &none
-                &none           &rgb_ug RGB_HUD   &rgb_ug RGB_HUI   &none   &none
-                &trans          &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &none   &none
-                &to NAV         &rgb_ug RGB_BRD   &rgb_ug RGB_BRI   &none   &reset
-                &to DEFAULT     &none   	  &none		    &none   &none
+                &none           &trans              &trans              &trans  &trans
+                &none           &rgb_ug RGB_TOG     &none               &none   &none
+                &none           &rgb_ug RGB_HUD     &rgb_ug RGB_HUI     &none   &none
+                &trans          &rgb_ug RGB_SAD     &rgb_ug RGB_SAI     &none   &none
+                &to NAV         &rgb_ug RGB_BRD     &rgb_ug RGB_BRI     &none   &reset
+                &to DEFAULT     &none               &none               &none   &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 
