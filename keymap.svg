@@ -88,12 +88,11 @@
 <rect rx="6" ry="6" x="177.0" y="617.5" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="645.0">&gt;</text>
 <rect rx="6" ry="6" x="236.0" y="617.5" width="55" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="617.5" width="55" height="55" class="" />
+<rect rx="6" ry="6" x="295.0" y="617.5" width="55" height="114" class="" />
 <rect rx="6" ry="6" x="118.0" y="676.5" width="55" height="55" class="" />
 <rect rx="6" ry="6" x="177.0" y="676.5" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="704.0">up</text>
 <rect rx="6" ry="6" x="236.0" y="676.5" width="55" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="676.5" width="55" height="55" class="" />
 <rect rx="6" ry="6" x="118.0" y="735.5" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="763.0">left</text>
 <rect rx="6" ry="6" x="177.0" y="735.5" width="55" height="55" class="" />
@@ -102,9 +101,7 @@
 <text text-anchor="middle" dominant-baseline="middle" x="263.5" y="763.0">right</text>
 <rect rx="6" ry="6" x="295.0" y="735.5" width="55" height="114" class="" />
 <rect rx="6" ry="6" x="118.0" y="794.5" width="114" height="55" class="" />
-<rect rx="6" ry="6" x="177.0" y="794.5" width="114" height="55" class="" />
-<rect rx="6" ry="6" x="236.0" y="794.5" width="114" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="794.5" width="114" height="55" class="" />
+<rect rx="6" ry="6" x="236.0" y="794.5" width="55" height="55" class="" />
 <rect rx="6" ry="6" x="29.5" y="1117.0" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="57.0" y="1144.5">mute</text>
 <rect rx="6" ry="6" x="29.5" y="1176.0" width="55" height="55" class="" />
@@ -132,7 +129,7 @@
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1076.5">hue</text>
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1094.5">up</text>
 <rect rx="6" ry="6" x="236.0" y="1058.0" width="55" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="1058.0" width="55" height="55" class="" />
+<rect rx="6" ry="6" x="295.0" y="1058.0" width="55" height="114" class="" />
 <rect rx="6" ry="6" x="118.0" y="1117.0" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="1135.5">sat</text>
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="1153.5">down</text>
@@ -140,7 +137,6 @@
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1135.5">sat</text>
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1153.5">up</text>
 <rect rx="6" ry="6" x="236.0" y="1117.0" width="55" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="1117.0" width="55" height="55" class="" />
 <rect rx="6" ry="6" x="118.0" y="1176.0" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="1194.5">bri</text>
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="1212.5">down</text>
@@ -148,9 +144,7 @@
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1194.5">bri</text>
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="1212.5">up</text>
 <rect rx="6" ry="6" x="236.0" y="1176.0" width="55" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="1176.0" width="55" height="55" class="" />
+<rect rx="6" ry="6" x="295.0" y="1176.0" width="55" height="114" class="" />
 <rect rx="6" ry="6" x="118.0" y="1235.0" width="114" height="55" class="" />
-<rect rx="6" ry="6" x="177.0" y="1235.0" width="114" height="55" class="" />
-<rect rx="6" ry="6" x="236.0" y="1235.0" width="114" height="55" class="" />
-<rect rx="6" ry="6" x="295.0" y="1235.0" width="114" height="55" class="" />
+<rect rx="6" ry="6" x="236.0" y="1235.0" width="55" height="55" class="" />
 </svg>
