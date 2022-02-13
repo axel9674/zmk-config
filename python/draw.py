@@ -91,7 +91,7 @@ def print_board(x, y, keymap):
         y += LAYER_H
 
 
-file = open("../keymap.svg", "w")
+file = open("./../keymap.svg", "w")
 file.write(f'<svg width="{BOARD_W}" height="{BOARD_H}" viewBox="0 0 {BOARD_W} {BOARD_H}" xmlns="http://www.w3.org/2000/svg">')
 file.write(f"<style>{STYLE}</style>")
 print_board(0, 0, KEYMAP)
