@@ -1,3 +1,3 @@
 # zmk-config
 
-![](https://github.com/axel9674/zmk-config/blob/master/keymap.svg)
+![](https://raw.githubusercontent.com/axel9674/zmk-config/master/keymap.svg)
