@@ -52,7 +52,6 @@
 <text text-anchor="middle" dominant-baseline="middle" x="204.5" y="263.5">5</text>
 <rect rx="6" ry="6" x="236.0" y="236.0" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="263.5" y="263.5">6</text>
-<rect rx="6" ry="6" x="295.0" y="236.0" width="-4" height="-4" class="" />
 <rect rx="6" ry="6" x="118.0" y="295.0" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="322.5">1</text>
 <rect rx="6" ry="6" x="177.0" y="295.0" width="55" height="55" class="" />
@@ -63,10 +62,8 @@
 <text text-anchor="middle" dominant-baseline="middle" x="322.5" y="322.5">enter</text>
 <rect rx="6" ry="6" x="118.0" y="354.0" width="114" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="145.5" y="381.5">0</text>
-<rect rx="6" ry="6" x="177.0" y="354.0" width="-4" height="-4" class="" />
 <rect rx="6" ry="6" x="236.0" y="354.0" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="263.5" y="381.5">.</text>
-<rect rx="6" ry="6" x="295.0" y="354.0" width="-4" height="-4" class="" />
 <rect rx="6" ry="6" x="29.5" y="676.5" width="55" height="55" class="" />
 <text text-anchor="middle" dominant-baseline="middle" x="57.0" y="704.0">mute</text>
 <rect rx="6" ry="6" x="29.5" y="735.5" width="55" height="55" class="" />
