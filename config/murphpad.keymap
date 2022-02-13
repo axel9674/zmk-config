@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <behaviors.dtsi>
 
 
 #define TIMEOUT 300
@@ -53,16 +52,6 @@
     sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder_1>;
-    };
-
-    behaviors {
-        resboot: reset_bootloader {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BOOTLOADER";
-            #binding-cells = <0>;
-            bindings = <&reset>, <&bootloader>;
-            mods = <(MOD_LCTL)>;
-        };
     };
 
     keymap0: keymap {
@@ -130,7 +119,7 @@
                 &none           &rgb_ug RGB_TOG     &none               &none   &none
                 &none           &rgb_ug RGB_HUD     &rgb_ug RGB_HUI     &none   &none
                 &trans          &rgb_ug RGB_SAD     &rgb_ug RGB_SAI     &none   &none
-                &to NAV         &rgb_ug RGB_BRD     &rgb_ug RGB_BRI     &none   &resboot
+                &to NAV         &rgb_ug RGB_BRD     &rgb_ug RGB_BRI     &none   &none
                 &to DEFAULT     &none               &none               &none   &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
