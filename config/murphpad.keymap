@@ -91,7 +91,7 @@
             bindings = <
                 &none           &trans   &trans   &trans  &trans
                 &none           &none   &none   &none   &none
-                &none           &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(255,255,255)   &none   &none
+                &none           &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(0,0,100)   &rgb_ug RGB_BRD   &rgb_ug RGB_BRI
                 &none           &none   &none   &none   &none
                 &to NAV         &none   &none   &none   &reset
                 &to DEFAULT     &none   &none   &none   &none
