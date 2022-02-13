@@ -1,9 +1,11 @@
 name: py
     
 on:
-  push:
-    paths:
-       - python
+    schedule:
+        - cron: "0 23 * * *"
+    push:
+        paths:
+            - python
 
 jobs:
   build:
